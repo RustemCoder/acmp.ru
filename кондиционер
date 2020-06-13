@@ -1,0 +1,26 @@
+#include <iostream>
+#include <string>
+#include <algorithm>
+using namespace std;
+int main()
+{
+int n,m,ans;
+string j;
+cin>>n>>m>>j;
+if(j=="heat")
+{ ans=max(n,m);
+
+}
+else if(j=="freeze")	
+{ans=min(n,m);
+}
+else if(j=="auto")
+ans=m;
+else if(j=="fan")
+ans=n;
+
+
+cout<<ans;
+return 0;
+	
+}
