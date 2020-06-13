@@ -1,1 +1,23 @@
+#include <iostream>
+#include <algorithm>
+using namespace std;
+int main()
+{
+	int a,b,c,s,n,g;
+	
+	cin>>a>>b>>c;
+	s=max(a,b);
+	n=max(s,c);
+	g=a+b+c-n;
 
+	
+	if(g>n )
+	cout<<"YES";
+	else
+	cout<<"NO";
+
+	
+	return 0;
+	
+	
+}
