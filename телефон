@@ -1,0 +1,29 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+unsigned long long  a,b,c,v,q;
+	
+	cin>>a>>b>>c>>v;
+	
+	if(v>=a  )
+	{q=a*b+(v-a)*c;
+	cout<<q;
+	}
+	
+	else if(a>v )
+	{	q=v*b;
+	cout<<q;
+	}
+	else if(v==0)
+	{
+		cout<<"0";
+	}
+	
+	
+
+	
+	return 0;
+	
+	
+}
