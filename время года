@@ -1,0 +1,23 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+	
+	int n;
+	
+	cin>>n;
+	
+	if((n>0 && n<3) || n==12)
+	cout<<"Winter";
+	else if(n>2 && n<6)
+	cout<<"Spring";
+	else if( n>5 && n<9)
+	cout<<"Summer";
+	else if(n>8 && n<12)
+	cout<<"Autumn";
+	else if(n>12 || n==0 )
+	cout<<"Error";
+	return 0;
+	
+	
+}
