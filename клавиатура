@@ -1,0 +1,17 @@
+#include <iostream>
+#include  <string>
+using namespace std;
+int main()
+{
+	int i;
+	string a="qwertyuiopasdfghjklzxcvbnmq",p;
+	cin>>p;
+	for(i=0;i<a.length();i++)
+	{ if(p[0]==a[i])
+	{cout<<a[i+1];
+	break;
+	}
+	
+}
+return 0;
+}
