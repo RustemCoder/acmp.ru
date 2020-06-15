@@ -1,0 +1,34 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+	int n,i;
+	cin>>n;
+	
+	int a[n],k,l;
+	
+	for(i=1;i<=n;i++)
+	{
+		cin>>a[i];
+	}
+	k=0;
+	l=0;
+	for(i=1;i<=n;i++)
+	{
+	if(a[i]==1)
+	k++;
+	
+	else if (a[i]==0) 
+	l++;
+	}
+	if(k>l)
+	cout<<l;
+	
+	else
+	cout<<k;
+	
+	return 0;
+
+	
+	
+}
