@@ -1,0 +1,18 @@
+#include <iostream>
+using namespace std;
+int main()
+
+{
+	
+	long long n,max,min;
+	cin>>n;
+	
+	max=n*6;
+	if(n%6==0)
+	min=n/6+ (- n%6);
+	else
+	min=n/6+ (7-n%6);
+	
+	cout<<min<<" "<<max;
+	return 0;
+}
