@@ -1,0 +1,18 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+	
+	int a,b,r;
+	
+	cin>>a>>b>>r;
+	
+	if(a+b==r || a+r==b || b+r==a)
+	cout<<"YES";
+	else
+	cout<<"NO";
+	
+	
+	
+	return 0;
+}
