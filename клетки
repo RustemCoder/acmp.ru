@@ -1,0 +1,26 @@
+#include <iostream>
+#include <string>
+using namespace std;
+int  main()
+{
+	
+	char a;
+	int b;
+	cin>>a>>b;
+	
+	if(((a=='A') || (a=='C') || (a=='G') || (a=='E')) && (b%2==0) )
+	
+		cout<<"WHITE"; 
+	
+	 else if(((a=='A')|| (a=='C' )|| (a=='G') || (a =='E')) &&  (b%2!=0))
+	cout<<"BLACK";
+	 else if((a=='B'|| a=='F' || a=='D' || a=='H') &&  b%2==0)
+	
+		cout<<"BLACK";
+	
+	 else if((a=='B'|| a=='F' || a=='D' || a=='H') &&  b%2!=0)
+	cout<<"WHITE";
+	return 0;
+
+
+}
