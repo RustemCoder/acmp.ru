@@ -1,0 +1,15 @@
+#include <iostream>
+  using namespace std;
+  int main()
+  {
+  short  unsigned  n,t;
+ cin>>n>>t;
+ 
+ if(t>n)
+ cout<<t-n;
+ else if(n>t)
+  cout<<12-n+t;
+ return 0;
+  }
+ 
+
