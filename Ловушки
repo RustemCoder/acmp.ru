@@ -1,0 +1,15 @@
+#include<iostream>
+#include <cmath>
+using namespace std;
+int main()
+{
+int i,n,L,R;
+cin>>n;
+ double v=0.;
+while(n)
+{
+n--;
+cin>>L>>R;
+v=v+2.*sqrt(pow(L,2)+pow(R,2));
+
+}cout<<fixed<<v;}
