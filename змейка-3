@@ -1,0 +1,28 @@
+#include <iostream>
+using namespace std;
+int main()
+{ unsigned int n,m,x,c;
+	cin>>n>>m>>x>>c;
+	unsigned int a[60][60];
+	int counter = 0, j,i;
+for(int i = 1; i <= n; i++) {
+    if(i % 2!= 0 ) {
+        for(j = 1; j <=m; j++)
+        {
+            a[i][j] = counter;
+            counter=counter+1;
+		}
+    } else {
+        for(j = m ; j >= 1; j--)
+        { a[i][j] = counter;
+			counter=counter+1;
+		}
+           
+    }
+
+}
+if(x>0 && x<=n && c<=m && c>0 )
+cout<<a[x][c]<<endl;
+
+return 0;
+}
