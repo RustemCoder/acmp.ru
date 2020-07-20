@@ -1,0 +1,26 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+	
+	int number,number1,m,k=0,k1=0,i;
+	cin>>number>>number1;
+
+for(i=number;i<=number1;i++)
+	{
+		while(number>2)
+		{if(number%2==0)
+		number=number/2;
+		else number= 3*number +1;
+		k++;
+		}
+		number=number+i;
+		
+		
+	}
+
+cout<<k;
+
+
+return 0;
+}
