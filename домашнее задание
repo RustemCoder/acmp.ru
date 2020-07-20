@@ -1,0 +1,45 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+int n;
+cin>>n;
+int *a = new int[n];
+for(int i=0;i<n;i++)
+{
+	cin>>a[i];
+}
+int sum=0;
+for(int i=0;i<n;i++)
+{	
+	if(a[i]>0)
+	sum=sum+a[i];
+}
+cout<<sum;
+int max,min;
+int k=0,z=0;
+max=0;
+min=101;
+for(int i=0;i<n;i++)
+{	
+	if(a[i]>max)
+	{max=a[i];
+	k=i;
+	}	
+	if(a[i]<min)
+	{	min=a[i];
+	z=i;
+	}
+
+}
+int mult=1;
+for(int i=k+1;i<=z-1;i++)
+	mult=mult*a[i];
+
+for(int i=z+1;i<=k-1;i++)
+	mult=mult*a[i];
+ cout<<' ';
+cout<<mult;
+
+return 0;
+}
