@@ -1,0 +1,37 @@
+#include <iostream>
+  using namespace std;
+  int main()
+  {
+ int n1,m1,n2,m2,k1,k2,k3,k4;
+ cin>>m1>>n1>>m2>>n2;
+ k1=0;
+ k2=0;
+ k3=0;
+ k4=0;
+ int sum1=0;
+ int sum2=0;
+ while(m1>=1)
+ {
+ 
+ 	if(m1%n1<n1)
+	k1=k1+m1%n1;
+		m1=m1/n1;
+ 
+ }
+  while(m2>=1)
+ {
+ 
+ 	if(m2%n2<n2)
+ 	k2=k2+m2%n2;
+ 	m2=m2/n2;
+ 	//cout<<m2;
+ }
+ //cout<<k1<<" "<<k2;
+ if(k1==k2)
+ cout<<k1;
+ else 
+cout<<"0";
+ 	return 0;
+  }
+ 
+
