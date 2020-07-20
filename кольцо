@@ -1,0 +1,16 @@
+#define _USE_MATH_DEFINES
+#include <iostream>
+#include <cmath>
+#include <iomanip>   
+
+using namespace std;
+int main()
+{ double n,m,r;
+cin>>n>>m;
+
+r=sqrt((m*m*M_PI-n)/M_PI);
+cout<<setprecision(3);
+cout<<fixed<<r;
+return 0;
+}
+
