@@ -1,0 +1,15 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+	int a,b,c,v,s;
+
+	cin>>a>>b>>c;
+	
+	v=a*b*c;
+	s=2*a*b+2*b*c+2*a*c;
+	cout<<s<<" "<<v;
+	
+	return 0;
+	
+}
