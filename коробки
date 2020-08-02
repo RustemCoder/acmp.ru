@@ -1,0 +1,26 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+	int a,b,c,a1,b1,c1,f,n;
+	
+	cin>>a>>b>>c>>a1>>b1>>c1;
+	
+	f=a+b+c;
+	n=a1+b1+c1;
+	
+	if((a==a1 && b==b1 && c==c1) || (a==b1 && b==a1 && c==c1 )|| (a==c1 && b==a1 && c==b1 )|| (a==a1 && b==c1 && c==b1)  )
+	cout<<"Boxes are equal";
+	else if (f>n)
+	cout<<"The first box is larger than the second one";
+	else if(n>f)
+	cout<<"The first box is smaller than the second one";
+	else 
+	cout<<"Boxes are incomparable";
+	
+	return 0;
+	
+	
+	
+	
+}
