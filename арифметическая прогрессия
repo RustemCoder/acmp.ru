@@ -1,0 +1,13 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+	int n,a,b,v,m;
+	cin>>n>>a>>b;
+	
+	v=a-n;
+	m=n+(b-1)*v;
+	cout<<m;
+
+	return 0;
+}
