@@ -1,0 +1,30 @@
+#include <iostream>
+#include <algorithm>
+using namespace std;
+int main()
+{
+	
+	int n,z,x,i,m;
+	int *a= new int[z];
+	cin>>n>>m;
+	z=max(n,m);
+	x=min(n,m);
+	
+for(i=x;i<=z;i++)
+{
+	if(a[i]%a[i]==0 && a[i]%1==0)
+	
+	cout<<a[i];
+	
+	
+	
+}
+for(i=x;i<=z;i++)
+{ if(n%2==0)
+cout<<"Absent";
+}
+
+	
+	
+	return 0;
+}
