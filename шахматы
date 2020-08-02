@@ -1,0 +1,28 @@
+#include <iostream>
+#include <string>
+using namespace std;
+int  main()
+{
+	string n;
+	int i,j;
+	cin>>n;
+ char  a[] ={'A','B','C','D','E','F','G','H'};
+ char  b[] ={'1','2','3','4','5','6','7','8','9'};
+ 
+ for(i=0;i<=7;i++){
+ 	for(j=0;j<=7;j++)
+ 	{
+ 	if(((((a[i]+b[j])-(a[i+1]+b[j+2]))=n)||((a[i]+b[j]) - (a[i+2]+b[j+1]))=n) ||((((a[i]+b[j])-(a[i-1]+b[j-2]))=n) ||((a[i]+b[j]) - (a[i-2]+b[j-1]))=n) )
+	 cout<<"YES";
+	 break;
+	 	
+ 		
+	 }
+ }
+return 0;
+
+}
+
+
+
+}
