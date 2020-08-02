@@ -1,0 +1,21 @@
+#include <iostream>
+#include <cmath>
+using namespace std;
+int main()
+{
+	long long a,b,v,h,l;
+	
+	
+	cin>>a>>b;
+l=a*b;
+v=sqrt(a*b);
+h=v*v;
+if(h==l)
+cout<<v;
+
+else
+cout<<"0";	
+
+	
+	return 0;
+}
