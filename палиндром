@@ -1,0 +1,36 @@
+#include <iostream>
+
+int main()
+{
+	int n;
+	
+	std::cin>>n;
+	int r,v;
+	v=0;
+	int c=n;
+	while(n)
+	{
+		r=n%10;
+		n/=10;
+		
+		
+		v=v*10+r;
+		
+		
+		
+	}
+	
+	
+	if(c==v)
+	std::cout<<"YES";
+	
+	
+	else
+	std::cout<<"NO";
+	
+	
+	return 0;
+	
+	
+	
+}
