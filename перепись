@@ -1,0 +1,39 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+	
+ int n;
+ cin>>n;
+ int a,b;
+int	max=-1;
+int i=0;
+int index=0;
+  while(i<n)
+	{
+		i++;
+		cin>>a>>b;
+		if(b==1)
+		{
+			
+			
+			if(a>max)
+			{
+				max=a;
+				index=i;
+			}
+		}
+	}
+	
+	if(index==0)
+	{
+		cout<<"-1";
+	}
+	else
+	cout<<index;
+	
+	
+	return 0;
+	
+	
+}
